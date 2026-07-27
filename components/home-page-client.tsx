@@ -81,13 +81,11 @@ export function HomePageClient() {
 
             <div className="mx-auto w-full max-w-md rounded-[2rem] border border-secondary/20 bg-background/90 p-4 shadow-xl shadow-secondary/10 backdrop-blur-sm sm:p-5">
               <div className="relative overflow-hidden rounded-[1.75rem] border border-slate-200/70 bg-slate-50 aspect-[4/5]">
-                <Image
-                  src="/Danmodi.jpg"
+                <img
+                  src="/Danmodi.jpg?v=2"
                   alt="Portrait of Governor Malam Umar A. Namadi"
-                  fill
-                  priority
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover"
+                  loading="eager"
+                  className="h-full w-full object-cover"
                 />
               </div>
               <div className="mt-5 text-center">
