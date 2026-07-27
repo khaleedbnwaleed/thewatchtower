@@ -82,7 +82,7 @@ export function HomePageClient() {
             <div className="mx-auto w-full max-w-md rounded-[2rem] border border-secondary/20 bg-background/90 p-4 shadow-xl shadow-secondary/10 backdrop-blur-sm sm:p-5">
               <div className="relative overflow-hidden rounded-[1.75rem] border border-slate-200/70 bg-slate-50 aspect-[4/5]">
                 <Image
-                  src="/Danmodi.jfif"
+                  src="/Danmodi.jpg"
                   alt="Portrait of Governor Malam Umar A. Namadi"
                   fill
                   priority
